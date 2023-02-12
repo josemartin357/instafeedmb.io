@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Embed Instagram Feed</title>
-    <script
-      type="module"
-      src="https://unpkg.com/@nocodeapi/embed-instagram-feed@latest/embed-instagram-feed.js?module"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Instagram Feed</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
   </head>
   <body>
-    <embed-instagram-feed
-      url="https://v1.nocodeapi.com/josemartin357/instagram/dvrmRtWSHVFlOPeX?limit=5"
-    ></embed-instagram-feed>
+    <div class="wrapper">
+      <div class="title-wrapper">
+        <span class="title-text">Follow us on &nbsp;</span>
+        <a class="anchor-ref" href="https://www.instagram.com/nbcumediatech/">
+          <img class="insta-logo" src="./instagram-logo.png" />
+          <span class="title-text">/nbcumediatech</span>
+        </a>
+      </div>
+      <div class="posts-container"></div>
+    </div>
   </body>
 </html>
