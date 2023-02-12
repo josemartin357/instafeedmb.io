@@ -1,0 +1,64 @@
+.wrapper {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 12px;
+}
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.title-text {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: rgb(36, 36, 36);
+}
+.insta-logo {
+  width: 30px;
+  height: 30px;
+  vertical-align: text-bottom;
+}
+.anchor-ref {
+  text-decoration: none;
+}
+.posts-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 12px;
+  justify-content: center;
+}
+.cards-wrap {
+  min-height: 380px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  width: 300px;
+  box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06),
+    1px 3px 8px rgba(39, 44, 49, 0.03);
+  background: white;
+  transition: all 0.5s ease;
+}
+.cards:hover {
+  transform: translate3D(0, -1px, 0) scale(1.03);
+  box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+    1px 6px 12px rgba(39, 44, 49, 0.04);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.cards img {
+  height: 360px;
+  width: 300px;
+}
